@@ -61,15 +61,21 @@
       <bold>false</bold>
      </font>
     </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(194, 194, 0);
 font: 75 26pt &quot;Segoe UI&quot;;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
     </property>
     <property name="margin">
-     <number>15</number>
+     <number>13</number>
     </property>
    </widget>
    <widget class="QPushButton" name="btn__7">
@@ -138,15 +144,15 @@ color: rgb(255, 170, 0);</string>
     <property name="font">
      <font>
       <family>Segoe UI</family>
-      <pointsize>30</pointsize>
-      <weight>10</weight>
+      <pointsize>40</pointsize>
+      <weight>62</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(134, 128, 134);
-font: 87 30pt &quot;Segoe UI&quot;;
+font:500 40pt &quot;Segoe UI&quot;;
 color: rgb(255, 170, 0);</string>
     </property>
     <property name="text">
@@ -201,15 +207,15 @@ color: rgb(255, 170, 0);</string>
     <property name="font">
      <font>
       <family>Segoe UI</family>
-      <pointsize>30</pointsize>
-      <weight>10</weight>
+      <pointsize>40</pointsize>
+      <weight>62</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(134, 128, 134);
-font: 87 30pt &quot;Segoe UI&quot;;
+font:500 40pt &quot;Segoe UI&quot;;
 color: rgb(255, 170, 0);</string>
     </property>
     <property name="text">
@@ -282,19 +288,31 @@ color: rgb(255, 170, 0);</string>
     <property name="font">
      <font>
       <family>Segoe UI</family>
-      <pointsize>30</pointsize>
-      <weight>10</weight>
+      <pointsize>40</pointsize>
+      <weight>62</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(134, 128, 134);
-font: 87 30pt &quot;Segoe UI&quot;;
+font:500 40pt &quot;Segoe UI&quot;;
 color: rgb(255, 170, 0);</string>
     </property>
     <property name="text">
      <string>*</string>
+    </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="btn__1">
@@ -318,7 +336,7 @@ color: rgb(255, 170, 0);</string>
    <widget class="QPushButton" name="btn__calc">
     <property name="geometry">
      <rect>
-      <x>81</x>
+      <x>162</x>
       <y>316</y>
       <width>80</width>
       <height>80</height>
@@ -326,7 +344,7 @@ color: rgb(255, 170, 0);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(134, 128, 134);
-font: 75 30pt &quot;Segoe UI&quot;;
+font:500 40pt &quot;Segoe UI&quot;;
 color: rgb(255, 170, 0);</string>
     </property>
     <property name="text">
@@ -336,15 +354,15 @@ color: rgb(255, 170, 0);</string>
    <widget class="QPushButton" name="btn__clear">
     <property name="geometry">
      <rect>
-      <x>162</x>
+      <x>81</x>
       <y>316</y>
-      <width>80</width>
-      <height>80</height>
+      <width>81</width>
+      <height>40</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(134, 128, 134);
-font: 75 30pt &quot;Segoe UI&quot;;
+font: 500 20pt &quot;Segoe UI&quot;;
 color: rgb(255, 170, 0);</string>
     </property>
     <property name="text">
@@ -381,19 +399,47 @@ color: rgb(255, 170, 0);</string>
     <property name="font">
      <font>
       <family>Segoe UI</family>
-      <pointsize>30</pointsize>
-      <weight>10</weight>
+      <pointsize>20</pointsize>
+      <weight>87</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(134, 128, 134);
-font: 87 30pt &quot;Segoe UI&quot;;
+font:700 20pt &quot;Segoe UI&quot;;
 color: rgb(255, 170, 0);</string>
     </property>
     <property name="text">
      <string>/</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn__dot">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>81</x>
+      <y>357</y>
+      <width>81</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>28</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(134, 128, 134);
+color: rgb(255, 170, 0);</string>
+    </property>
+    <property name="text">
+     <string>.</string>
     </property>
    </widget>
   </widget>
