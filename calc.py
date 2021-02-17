@@ -37,25 +37,25 @@ class Ui_MainWindow(object):
         font.setWeight(9)
         self.labelDisplay.setFont(font)
         self.labelDisplay.setStyleSheet("background-color: rgb(194, 194, 0);\n"
-"font: 75 26pt \"Segoe UI\";")
+                                        "font: 75 26pt \"Segoe UI\";")
         self.labelDisplay.setObjectName("labelDisplay")
         self.btn__7 = QtWidgets.QPushButton(self.centralwidget)
         self.btn__7.setGeometry(QtCore.QRect(162, 73, 80, 80))
         self.btn__7.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                  "font: 75 30pt \"Segoe UI\";\n"
+                                  "color: rgb(255, 170, 0);")
         self.btn__7.setObjectName("btn__7")
         self.btn__8 = QtWidgets.QPushButton(self.centralwidget)
         self.btn__8.setGeometry(QtCore.QRect(81, 73, 80, 80))
         self.btn__8.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                  "font: 75 30pt \"Segoe UI\";\n"
+                                  "color: rgb(255, 170, 0);")
         self.btn__8.setObjectName("btn__8")
         self.btn__9 = QtWidgets.QPushButton(self.centralwidget)
         self.btn__9.setGeometry(QtCore.QRect(0, 73, 80, 80))
         self.btn__9.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                  "font: 75 30pt \"Segoe UI\";\n"
+                                  "color: rgb(255, 170, 0);")
         self.btn__9.setObjectName("btn__9")
         self.btn__add = QtWidgets.QPushButton(self.centralwidget)
         self.btn__add.setGeometry(QtCore.QRect(243, 73, 80, 80))
@@ -67,20 +67,20 @@ class Ui_MainWindow(object):
         font.setWeight(10)
         self.btn__add.setFont(font)
         self.btn__add.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 87 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                    "font: 87 30pt \"Segoe UI\";\n"
+                                    "color: rgb(255, 170, 0);")
         self.btn__add.setObjectName("btn__add")
         self.btn__5 = QtWidgets.QPushButton(self.centralwidget)
         self.btn__5.setGeometry(QtCore.QRect(81, 154, 80, 80))
         self.btn__5.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                  "font: 75 30pt \"Segoe UI\";\n"
+                                  "color: rgb(255, 170, 0);")
         self.btn__5.setObjectName("btn__5")
         self.btn__4 = QtWidgets.QPushButton(self.centralwidget)
         self.btn__4.setGeometry(QtCore.QRect(162, 154, 80, 80))
         self.btn__4.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                  "font: 75 30pt \"Segoe UI\";\n"
+                                  "color: rgb(255, 170, 0);")
         self.btn__4.setObjectName("btn__4")
         self.btn__sub = QtWidgets.QPushButton(self.centralwidget)
         self.btn__sub.setGeometry(QtCore.QRect(243, 154, 80, 80))
@@ -92,26 +92,26 @@ class Ui_MainWindow(object):
         font.setWeight(10)
         self.btn__sub.setFont(font)
         self.btn__sub.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 87 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                    "font: 87 30pt \"Segoe UI\";\n"
+                                    "color: rgb(255, 170, 0);")
         self.btn__sub.setObjectName("btn__sub")
         self.btn__6 = QtWidgets.QPushButton(self.centralwidget)
         self.btn__6.setGeometry(QtCore.QRect(0, 154, 80, 80))
         self.btn__6.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                  "font: 75 30pt \"Segoe UI\";\n"
+                                  "color: rgb(255, 170, 0);")
         self.btn__6.setObjectName("btn__6")
         self.btn__3 = QtWidgets.QPushButton(self.centralwidget)
         self.btn__3.setGeometry(QtCore.QRect(0, 235, 80, 80))
         self.btn__3.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                  "font: 75 30pt \"Segoe UI\";\n"
+                                  "color: rgb(255, 170, 0);")
         self.btn__3.setObjectName("btn__3")
         self.btn__2 = QtWidgets.QPushButton(self.centralwidget)
         self.btn__2.setGeometry(QtCore.QRect(81, 235, 80, 80))
         self.btn__2.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                  "font: 75 30pt \"Segoe UI\";\n"
+                                  "color: rgb(255, 170, 0);")
         self.btn__2.setObjectName("btn__2")
         self.btn__multiply = QtWidgets.QPushButton(self.centralwidget)
         self.btn__multiply.setGeometry(QtCore.QRect(243, 235, 80, 80))
@@ -123,32 +123,32 @@ class Ui_MainWindow(object):
         font.setWeight(10)
         self.btn__multiply.setFont(font)
         self.btn__multiply.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 87 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                         "font: 87 30pt \"Segoe UI\";\n"
+                                         "color: rgb(255, 170, 0);")
         self.btn__multiply.setObjectName("btn__multiply")
         self.btn__1 = QtWidgets.QPushButton(self.centralwidget)
         self.btn__1.setGeometry(QtCore.QRect(162, 235, 80, 80))
         self.btn__1.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                  "font: 75 30pt \"Segoe UI\";\n"
+                                  "color: rgb(255, 170, 0);")
         self.btn__1.setObjectName("btn__1")
         self.btn__calc = QtWidgets.QPushButton(self.centralwidget)
         self.btn__calc.setGeometry(QtCore.QRect(81, 316, 80, 80))
         self.btn__calc.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                     "font: 75 30pt \"Segoe UI\";\n"
+                                     "color: rgb(255, 170, 0);")
         self.btn__calc.setObjectName("btn__calc")
         self.btn__clear = QtWidgets.QPushButton(self.centralwidget)
         self.btn__clear.setGeometry(QtCore.QRect(162, 316, 80, 80))
         self.btn__clear.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                      "font: 75 30pt \"Segoe UI\";\n"
+                                      "color: rgb(255, 170, 0);")
         self.btn__clear.setObjectName("btn__clear")
         self.btn__zero = QtWidgets.QPushButton(self.centralwidget)
         self.btn__zero.setGeometry(QtCore.QRect(0, 316, 80, 80))
         self.btn__zero.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 75 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                     "font: 75 30pt \"Segoe UI\";\n"
+                                     "color: rgb(255, 170, 0);")
         self.btn__zero.setObjectName("btn__zero")
         self.btn__div = QtWidgets.QPushButton(self.centralwidget)
         self.btn__div.setGeometry(QtCore.QRect(243, 316, 80, 80))
@@ -160,18 +160,21 @@ class Ui_MainWindow(object):
         font.setWeight(10)
         self.btn__div.setFont(font)
         self.btn__div.setStyleSheet("background-color: rgb(134, 128, 134);\n"
-"font: 87 30pt \"Segoe UI\";\n"
-"color: rgb(255, 170, 0);")
+                                    "font: 87 30pt \"Segoe UI\";\n"
+                                    "color: rgb(255, 170, 0);")
         self.btn__div.setObjectName("btn__div")
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        # init events for buttons in MainWindow
+        self.addFunctions()
+
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "CalcPy"))
-        self.labelDisplay.setText(_translate("MainWindow", "<html><head/><body><p>0</p></body></html>"))
+        self.labelDisplay.setText(_translate("MainWindow", "0"))
         self.btn__7.setText(_translate("MainWindow", "7"))
         self.btn__8.setText(_translate("MainWindow", "8"))
         self.btn__9.setText(_translate("MainWindow", "9"))
@@ -189,9 +192,92 @@ class Ui_MainWindow(object):
         self.btn__zero.setText(_translate("MainWindow", "0"))
         self.btn__div.setText(_translate("MainWindow", "/"))
 
+    # Events for button for MainWindow
+    def addFunctions(self):
+        # NumPad btn
+        self.btn__zero.clicked.connect(lambda: self.writeNumber(self.btn__zero.text()))
+        self.btn__1.clicked.connect(lambda: self.writeNumber(self.btn__1.text()))
+        self.btn__2.clicked.connect(lambda: self.writeNumber(self.btn__2.text()))
+        self.btn__3.clicked.connect(lambda: self.writeNumber(self.btn__3.text()))
+        self.btn__4.clicked.connect(lambda: self.writeNumber(self.btn__4.text()))
+        self.btn__5.clicked.connect(lambda: self.writeNumber(self.btn__5.text()))
+        self.btn__6.clicked.connect(lambda: self.writeNumber(self.btn__6.text()))
+        self.btn__7.clicked.connect(lambda: self.writeNumber(self.btn__7.text()))
+        self.btn__8.clicked.connect(lambda: self.writeNumber(self.btn__8.text()))
+        self.btn__9.clicked.connect(lambda: self.writeNumber(self.btn__9.text()))
+
+        # OperandPad btn
+        self.btn__add.clicked.connect(lambda: self.writeNumber(self.btn__add.text()))
+        self.btn__sub.clicked.connect(lambda: self.writeNumber(self.btn__sub.text()))
+        self.btn__multiply.clicked.connect(lambda: self.writeNumber(self.btn__multiply.text()))
+        self.btn__div.clicked.connect(lambda: self.writeNumber(self.btn__div.text()))
+
+        # FunctionPad btn
+        # Cleared result
+        self.btn__clear.clicked.connect(self.clearDisplay)
+        # Calculate nums
+        self.btn__calc.clicked.connect(self.calculate)
+
+    #                       <-------- Function -------->
+    # Write numbers in display for calculate
+    def writeNumber(self, number):
+        if (self.labelDisplay.text() == '0'):
+            self.labelDisplay.setText(number)
+        else:
+            self.labelDisplay.setText(self.labelDisplay.text() + number)
+
+    # Calculate
+    def calculate(self):
+        try:
+            # Calculate <str> --> <int,float>
+            result = eval(self.labelDisplay.text())
+            # Show result
+            self.labelDisplay.setText(f'Result: {result}')
+            # Lock Numpad
+            self.btn__1.setEnabled(False)
+            self.btn__2.setEnabled(False)
+            self.btn__3.setEnabled(False)
+            self.btn__4.setEnabled(False)
+            self.btn__5.setEnabled(False)
+            self.btn__6.setEnabled(False)
+            self.btn__7.setEnabled(False)
+            self.btn__8.setEnabled(False)
+            self.btn__9.setEnabled(False)
+            # Lock OperandPad
+            self.btn__add.setEnabled(False)
+            self.btn__sub.setEnabled(False)
+            self.btn__multiply.setEnabled(False)
+            self.btn__div.setEnabled(False)
+        except SyntaxError:
+            # If user enter button " = " while in display "Result: X", clear Display
+            self.clearDisplay()
+
+
+    def clearDisplay(self):
+        # Unlock Numpad
+        self.btn__1.setEnabled(True)
+        self.btn__2.setEnabled(True)
+        self.btn__3.setEnabled(True)
+        self.btn__4.setEnabled(True)
+        self.btn__5.setEnabled(True)
+        self.btn__6.setEnabled(True)
+        self.btn__7.setEnabled(True)
+        self.btn__8.setEnabled(True)
+        self.btn__9.setEnabled(True)
+        # Unlock OperandPad
+        self.btn__add.setEnabled(True)
+        self.btn__sub.setEnabled(True)
+        self.btn__multiply.setEnabled(True)
+        self.btn__div.setEnabled(True)
+        # Cleared display
+        self.labelDisplay.setText('0')
+
+
+
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
